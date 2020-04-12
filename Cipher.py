@@ -45,14 +45,6 @@ def encrypt(text,s):
   
     return result 
   
-#check the above function 
-text = "ATTACKATONCE"
-s = 5
-print "Text  : " + text 
-print "Shift : " + str(s) 
-print "Cipher: " + encrypt(text,s)
-
-
 
 def decrypt(text,s): 
     result = "" 
@@ -71,9 +63,3 @@ def decrypt(text,s):
   
     return result 
   
-#check the above function 
-text = "ATTACKATONCE"
-s = 5
-print "Text  : " + text 
-print "Shift : " + str(s) 
-print "Cipher: " + decrypt(text,s)
